@@ -11,10 +11,10 @@
  */
 
 /** MySQL database username */
-define( 'YOURLS_DB_USER', 'your db user name' );
+define( 'YOURLS_DB_USER', 'mcf' );
 
 /** MySQL database password */
-define( 'YOURLS_DB_PASS', 'your db password' );
+define( 'YOURLS_DB_PASS', '901224' );
 
 /** The name of the database for YOURLS */
 define( 'YOURLS_DB_NAME', 'yourls' );
@@ -51,7 +51,7 @@ define( 'YOURLS_UNIQUE_URLS', true );
 /** Private means the Admin area will be protected with login/pass as defined below.
  ** Set to false for public usage (eg on a restricted intranet or for test setups)
  ** Read http://yourls.org/privatepublic for more details if you're unsure */
-define( 'YOURLS_PRIVATE', true );
+define( 'YOURLS_PRIVATE', false );
 
 /** A random secret hash used to encrypt cookies. You don't have to remember it, make it long and complicated. Hint: copy from http://yourls.org/cookie **/
 define( 'YOURLS_COOKIEKEY', 'modify this text with something random' );
